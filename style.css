@@ -21,6 +21,11 @@ section {
     margin: 0 auto;
 }
 
+video {
+    width: 100%;
+    height: auto;
+}
+
 /*IANA START*/
 
 /*** fonte ***/
@@ -134,10 +139,21 @@ font-family: 'PT Sans', sans-serif;
 
 /*MICHELLE START*/
 
+#piercinger .wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#piercinger .col {
+    flex-grow: 1;
+    flex-basis: 600px;
+}
 
-
-
+@media only screen and (min-width: 700px) {
+    #piercinger .col {
+        flex-basis: 200px;
+    }
+}
 
 
 
