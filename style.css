@@ -23,13 +23,23 @@ section {
 
 /*IANA START*/
 
+/*** fonte ***/
+/*
+font-family: eurostile,sans-serif;
+font-weight: 700;
+font-style: normal;
 
+font-family: 'PT Sans', sans-serif;
 
+@font-face {
+    font-family: 'krungthep';
+    src: url("fonts/krungthep/krungthep-webfont.woff") format('woff');
+    src: url("fonts/krungthep/krungthep-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
-
-
-
-
+*/
 
 
 
