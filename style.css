@@ -209,22 +209,24 @@ font-family: 'PT Sans', sans-serif;
 
 
 /*index start*/
+footer {
+    width: 100vw;
+    background-color: black;
+}
 
 footer .wrap {
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    bottom: 0;
     left: 0;
-
-    background-color: black;
+    margin: 0 auto;
+    max-width: 1200px;
 
 }
 
 footer .col {
     flex-grow: 1;
-    flex-basis: 600px;
-    align-items: center;
+    flex-basis: 350px;
+
     padding: 0 2.5rem 0rem 0rem;
 }
 
@@ -256,11 +258,10 @@ footer li {
 /*media start*/
 
 @media only screen and (min-width: 700px) {
-    #index .col {
+    #footer .col {
         flex-basis: 180px;
     }
 }
-
 
 @media only screen and (min-width: 700px) {
     #piercinger .col {
