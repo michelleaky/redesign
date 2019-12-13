@@ -7,7 +7,7 @@
 
 body {
     margin: 0;
-    background-color: #feffeb;
+    background-color: #fffbeb;
 }
 
 img {
@@ -193,16 +193,21 @@ li {
 #piercinger .wrap {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 #piercinger .col {
     flex-grow: 1;
     flex-basis: 600px;
+
+    padding: 0rem 0.6rem 0.6rem;
+    margin: 0.2rem;
 }
+
 
 @media only screen and (min-width: 700px) {
     #piercinger .col {
-        flex-basis: 200px;
+        flex-basis: 180px;
     }
 }
 
