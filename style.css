@@ -66,9 +66,43 @@ li {
     list-style-type: none;
 }
 
+#knapper {
+    display: flex;
+    justify-content: space-between;
+}
 
+#praktiskinfo .piercingknap {
+    width: 155px;
+    height: 55px;
+    background-color: #FF79E5;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
 
+    font-size: 0.75rem;
+    border-radius: 45px;
+}
 
+#praktiskinfo .piercingknap p {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1.3rem;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+#praktiskinfo .piercingknap2 {
+    width: 155px;
+    height: 55px;
+    background-color: #FF79E5;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 0.75rem;
+    border-radius: 45px;
+}
 
 
 
