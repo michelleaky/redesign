@@ -28,16 +28,43 @@ video {
 
 /*IANA START*/
 
+/*** fonte ***/
+/*
+font-family: eurostile,sans-serif;
+font-weight: 700;
+font-style: normal;
 
+font-family: 'PT Sans', sans-serif;
 
+@font-face {
+    font-family: 'krungthep';
+    src: url("fonts/krungthep/krungthep-webfont.woff") format('woff');
+    src: url("fonts/krungthep/krungthep-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
 
+*/
 
+h1,
+h2 {
+    color: #464040;
+    font-family: eurostile, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+}
 
+p,
+ul,
+li {
+    color: #2E2B2B;
+    font-family: 'PT Sans', sans-serif;
+}
 
-
-
-
-
+#praktiskinfo li {
+    list-style-type: none;
+}
 
 
 
