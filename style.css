@@ -39,6 +39,10 @@ h2 {
     text-transform: capitalize;
 }
 
+h2 {
+    margin-top: 45px;
+}
+
 p,
 ul,
 li {
