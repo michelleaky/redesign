@@ -26,6 +26,30 @@ video {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    color: #464040;
+    font-family: eurostile, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+h2 {
+    margin-top: 45px;
+}
+
+p,
+ul,
+li {
+    color: #2E2B2B;
+    font-family: 'PT Sans', sans-serif;
+}
+
 /*IANA START*/
 
 /*** fonte ***/
@@ -46,29 +70,48 @@ font-family: 'PT Sans', sans-serif;
 
 */
 
-h1,
-h2 {
-    color: #464040;
-    font-family: eurostile, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-transform: capitalize;
-}
-
-p,
-ul,
-li {
-    color: #2E2B2B;
-    font-family: 'PT Sans', sans-serif;
-}
 
 #praktiskinfo li {
     list-style-type: none;
 }
 
+#knapper {
+    display: flex;
+    justify-content: space-between;
+}
 
+#praktiskinfo .piercingknap {
+    width: 155px;
+    height: 55px;
+    background-color: #FF79E5;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
 
+    font-size: 0.75rem;
+    border-radius: 45px;
+}
 
+#praktiskinfo .piercingknap p {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1.3rem;
+    font-size: 0.75rem;
+    margin: 0;
+}
+
+#praktiskinfo .piercingknap2 {
+    width: 155px;
+    height: 55px;
+    background-color: #FF79E5;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 0.75rem;
+    border-radius: 45px;
+}
 
 
 
