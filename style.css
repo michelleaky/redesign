@@ -156,6 +156,36 @@ li {
 
 /*MICHELLE START*/
 
+
+/*index start*/
+
+#index .wrap {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    background-color: black;
+
+}
+
+#index .col {
+    flex-grow: 1;
+    flex-basis: 600px;
+    align-items: center;
+    padding: 0 2.5rem 0rem 0rem;
+}
+
+#index li {
+    list-style-type: none;
+    color: #fffbeb;
+}
+
+/*index slut*/
+
+
+/*piercinger start*/
 #piercinger .wrap {
     display: flex;
     flex-wrap: wrap;
@@ -170,14 +200,24 @@ li {
     margin: 0.2rem;
 }
 
+/*piercinger slut*/
+
+/*media start*/
 
 @media only screen and (min-width: 700px) {
-    #piercinger .col {
+    #index .col {
         flex-basis: 180px;
     }
 }
 
 
+@media only screen and (min-width: 700px) {
+    #piercinger .col {
+        flex-basis: 200px;
+    }
+}
+
+/*medie slut*/
 
 
 
