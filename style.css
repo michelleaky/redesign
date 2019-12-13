@@ -46,8 +46,25 @@ font-family: 'PT Sans', sans-serif;
 
 */
 
+h1,
+h2 {
+    color: #464040;
+    font-family: eurostile, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: capitalize;
+}
 
+p,
+ul,
+li {
+    color: #2E2B2B;
+    font-family: 'PT Sans', sans-serif;
+}
 
+#praktiskinfo li {
+    list-style-type: none;
+}
 
 
 
