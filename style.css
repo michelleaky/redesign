@@ -1,3 +1,26 @@
+/*********Generelle indstillinger***********/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #feffeb;
+}
+
+img {
+    width: 100%;
+}
+
+
+section {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /*IANA START*/
 
 
