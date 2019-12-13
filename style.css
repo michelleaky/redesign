@@ -210,7 +210,7 @@ font-family: 'PT Sans', sans-serif;
 
 /*index start*/
 
-#index .wrap {
+footer .wrap {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
@@ -221,14 +221,14 @@ font-family: 'PT Sans', sans-serif;
 
 }
 
-#index .col {
+footer .col {
     flex-grow: 1;
     flex-basis: 600px;
     align-items: center;
     padding: 0 2.5rem 0rem 0rem;
 }
 
-#index li {
+footer li {
     list-style-type: none;
     color: #fffbeb;
 }
