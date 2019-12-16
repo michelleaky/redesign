@@ -258,6 +258,27 @@ footer li {
 
 /*piercinger slut*/
 
+/*om os start*/
+#omos .wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#omos .col {
+    flex-grow: 1;
+    flex-basis: 600px;
+
+    padding: 0rem 0.2rem 0.2rem;
+    margin: 0.2rem;
+}
+
+#omos .txt {
+    margin: 2rem;
+    padding-top: 0;
+}
+
+/*om os slut*/
+
 /*media start*/
 
 @media only screen and (min-width: 700px) {
@@ -269,6 +290,12 @@ footer li {
 @media only screen and (min-width: 700px) {
     #piercinger .col {
         flex-basis: 200px;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    #omos .col {
+        flex-basis: 150px;
     }
 }
 
