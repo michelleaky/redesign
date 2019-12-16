@@ -126,7 +126,36 @@ font-family: 'PT Sans', sans-serif;
 }
 
 
+table {
+    width: 100%;
+}
 
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #2E2B2B;
+    font-family: 'PT Sans', sans-serif;
+}
+
+th,
+td {
+    padding: 7px;
+}
+
+.kategori {
+    background-color: black;
+    color: #fffbeb;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(255, 121, 229, 0.37);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgba(255, 241, 252, 0.82);
+}
 
 
 
