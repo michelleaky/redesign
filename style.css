@@ -211,6 +211,50 @@ font-family: 'PT Sans', sans-serif;
 /*MICHELLE START*/
 
 
+
+header nav a {
+    font-size: 2rem;
+    margin: 0 5vw 0 0;
+}
+
+header nav {
+    margin: 0;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+}
+
+header {
+    align-content: center;
+    text-align: center;
+}
+
+nav {
+    padding: 50px;
+}
+
+menuforside {
+    margin: 0 0 0 5vw;
+}
+
+#menupraktiskinfo {
+    margin: 0 25vw 0 0;
+}
+
+
+
+#splash {
+    background-image: url(billeder/splash1.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: 30% 30%;
+    max-width: none;
+}
+
+
+
+
 /*index start*/
 footer {
     width: 100vw;
@@ -291,11 +335,6 @@ footer li {
     width: 800px;
     padding: 15px;
 }
-
-
-
-
-
 
 /*Kontrakt/Booking slut*/
 
