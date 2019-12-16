@@ -18,7 +18,7 @@ img {
 section {
     padding: 1rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 5vw auto 0;
 }
 
 video {
@@ -241,9 +241,37 @@ table tr:nth-child(odd) {
 
 
 
+
+/***********Menu generelt start***********/
+
+.logo {
+    position: fixed;
+    background-image: url(billeder/logo.png);
+    width: 20vw;
+    height: 10vw;
+    background-size: cover;
+
+    left: 40vw;
+    top: -1vw;
+}
+
+
+
+
+/*FONTEN:*/
+@font-face {
+    font-family: 'krungthep';
+    src: url("fonts/krungthep/krungthep-webfont.woff") format('woff');
+    src: url("fonts/krungthep/krungthep-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header nav a {
-    font-size: 2rem;
-    margin: 0 2vw 0 0;
+    font-size: 1rem;
+    margin: 0 5vw 0 0;
+
+    font-family: 'krungthep';
 }
 
 header nav {
@@ -256,21 +284,37 @@ header nav {
 header {
     align-content: center;
     text-align: center;
+    position: fixed;
 }
 
 nav {
-    padding: 50px;
+    padding: 30px;
 }
 
-menuforside {
-    margin: 0 0 0 5vw;
+#menukontaktbooking {
+    margin: 0 0 0 0;
 }
 
 #menupraktiskinfo {
     margin: 0 25vw 0 0;
 }
 
+/***********Menu generelt slut***********/
 
+/******Menu textdesign start*******/
+header nav a:link {
+    color: #fffbeb
+}
+
+header nav a:visited {
+    color: #fffbeb
+}
+
+header nav a:hover {
+    color: #fffbeb
+}
+
+/******Menu textdesign slut*******/
 
 #splash {
     background-image: url(billeder/splash1.jpg);
