@@ -256,6 +256,11 @@ footer li {
     margin: 0.2rem;
 }
 
+#piercinger .txt {
+    margin: 2rem;
+    padding-top: 0;
+}
+
 /*piercinger slut*/
 
 /*om os start*/
@@ -278,6 +283,21 @@ footer li {
 }
 
 /*om os slut*/
+
+/*Kontakt/Booking start*/
+
+
+#kontaktbooking input {
+    width: 800px;
+    padding: 15px;
+}
+
+
+
+
+
+
+/*Kontrakt/Booking slut*/
 
 /*media start*/
 
