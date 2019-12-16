@@ -74,9 +74,17 @@ font-family: 'PT Sans', sans-serif;
 
 */
 
-
 #praktiskinfo li {
-    list-style-type: none;
+    list-style-type: circle;
+    padding-top: 7px;
+}
+
+#praktiskinfo ul {
+    margin-top: 0;
+}
+
+#praktiskinfo .list {
+    margin-bottom: 0;
 }
 
 #knapper {
@@ -86,7 +94,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 #praktiskinfo .piercingknap {
-    width: 155px;
+    width: 140px;
     height: 55px;
     background-color: #FF79E5;
     font-family: 'PT Sans', sans-serif;
@@ -108,7 +116,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 #praktiskinfo .piercingknap2 {
-    width: 155px;
+    width: 140px;
     height: 55px;
     background-color: #FF79E5;
     font-family: 'PT Sans', sans-serif;
