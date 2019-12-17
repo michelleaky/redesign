@@ -343,7 +343,7 @@ header nav a:hover {
 
 /*       Splash start        */
 
-#slideshow {
+#forside {
     width: 100%;
     background-size: cover;
     background-position: 30% 30%;
@@ -351,9 +351,11 @@ header nav a:hover {
     max-height: none;
     padding: 0;
     margin: auto;
-    background-color: black;
 }
 
+.sort {
+    background-color: black;
+}
 
 
 .fade {
@@ -386,8 +388,23 @@ header nav a:hover {
 /*       Splash slut        */
 
 
+#forside .wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#forside .col {
+    flex-grow: 1;
+    flex-basis: 200px;
 
+    margin: 4rem;
+    margin-top: 0;
+    border-style: solid;
+}
+
+#forside .txt {
+    margin-left: 4rem;
+}
 
 
 
