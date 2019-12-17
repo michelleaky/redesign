@@ -6,6 +6,7 @@ var slideIndex = 0;
 function sidenVises() {
     console.log("Siden Vises");
 
+    clickMenu();
     showSlides();
     document.querySelector("#menuknap").addEventListener("click", clickMenu);
 }
