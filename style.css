@@ -338,9 +338,9 @@ header nav a:hover {
 
 
 
-/*index start*/
+/*footer start*/
 footer {
-    width: 100vw;
+    width: 100%;
     background-color: black;
 }
 
@@ -365,7 +365,7 @@ footer li {
     color: #fffbeb;
 }
 
-/*index slut*/
+/*footer slut*/
 
 
 /*piercinger start*/
@@ -416,6 +416,12 @@ footer li {
 
 #kontaktbooking input {
     width: 800px;
+    padding: 15px;
+}
+
+#besked input {
+    width: 800px;
+    height: 150px;
     padding: 15px;
 }
 
