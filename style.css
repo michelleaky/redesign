@@ -18,7 +18,7 @@ img {
 section {
     padding: 1rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 5vw auto 0;
 }
 
 video {
@@ -35,7 +35,8 @@ h1 {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     color: #464040;
     font-family: eurostile, sans-serif;
     font-weight: 700;
@@ -74,9 +75,17 @@ font-family: 'PT Sans', sans-serif;
 
 */
 
-
 #praktiskinfo li {
-    list-style-type: none;
+    list-style-type: circle;
+    padding-top: 7px;
+}
+
+#praktiskinfo ul {
+    margin-top: 0;
+}
+
+#praktiskinfo .list {
+    margin-bottom: 0;
 }
 
 #knapper {
@@ -86,7 +95,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 #praktiskinfo .piercingknap {
-    width: 155px;
+    width: 140px;
     height: 55px;
     background-color: #FF79E5;
     font-family: 'PT Sans', sans-serif;
@@ -108,7 +117,7 @@ font-family: 'PT Sans', sans-serif;
 }
 
 #praktiskinfo .piercingknap2 {
-    width: 155px;
+    width: 140px;
     height: 55px;
     background-color: #FF79E5;
     font-family: 'PT Sans', sans-serif;
@@ -243,9 +252,38 @@ table tr:nth-child(odd) {
 
 
 
+
+/***********Menu generelt start***********/
+
+.logo {
+    position: fixed;
+    background-image: url(billeder/logo.png);
+    width: 20vw;
+    height: 10vw;
+    background-size: cover;
+
+    left: 40vw;
+    top: -1vw;
+    z-index: 102;
+}
+
+
+
+
+/*FONTEN:*/
+@font-face {
+    font-family: 'krungthep';
+    src: url("fonts/krungthep/krungthep-webfont.woff") format('woff');
+    src: url("fonts/krungthep/krungthep-webfont.woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 header nav a {
-    font-size: 2rem;
-    margin: 0 2vw 0 0;
+    font-size: 1rem;
+    margin: 0 5vw 0 0;
+
+    font-family: 'krungthep';
 }
 
 header nav {
@@ -253,27 +291,46 @@ header nav {
     position: fixed;
     background-color: black;
     width: 100%;
+    z-index: 100;
 }
 
 header {
     align-content: center;
     text-align: center;
+    position: fixed;
+    z-index: 101;
 }
 
 nav {
-    padding: 50px;
+    padding: 30px;
 }
 
-menuforside {
-    margin: 0 0 0 5vw;
+#menukontaktbooking {
+    margin: 0 0 0 0;
 }
 
 #menupraktiskinfo {
     margin: 0 25vw 0 0;
 }
 
+/***********Menu generelt slut***********/
 
+/******Menu textdesign start*******/
+header nav a:link {
+    color: #fffbeb
+}
 
+header nav a:visited {
+    color: #fffbeb
+}
+
+header nav a:hover {
+    color: #fffbeb
+}
+
+/******Menu textdesign slut*******/
+
+/*
 #splash {
     background-image: url(billeder/splash1.jpg);
     width: 100vw;
@@ -281,14 +338,70 @@ menuforside {
     background-size: cover;
     background-position: 30% 30%;
     max-width: none;
+}*/
+
+
+/*       Splash start        */
+
+#slideshow {
+    width: 100%;
+    background-size: cover;
+    background-position: 30% 30%;
+    max-width: none;
+    max-height: none;
+    padding: 0;
+    margin: auto;
+    background-color: black;
 }
 
 
 
+.fade {
+    animation-name: fade;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
 
-/*index start*/
+
+
+@keyframes fade {
+    0% {
+        opacity: 0
+    }
+
+    10% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+
+/*       Splash slut        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer start*/
 footer {
-    width: 100vw;
+    width: 100%;
+    height: 20rem;
     background-color: black;
 }
 
@@ -298,22 +411,28 @@ footer .wrap {
     left: 0;
     margin: 0 auto;
     max-width: 1200px;
-
 }
 
 footer .col {
     flex-grow: 1;
     flex-basis: 350px;
+    margin-top: 1.8rem;
 
-    padding: 0 2.5rem 0rem 0rem;
+    padding: 0 2.5rem 0rem 2.5rem;
 }
 
 footer li {
     list-style-type: none;
     color: #fffbeb;
+    font-size: 0.8rem;
+    line-height: 20px;
 }
 
-/*index slut*/
+footer ul {
+    width: 12rem;
+}
+
+/*footer slut*/
 
 
 /*piercinger start*/
@@ -332,11 +451,14 @@ footer li {
 }
 
 #piercinger .txt {
-    margin: 2rem;
+    margin-left: 2.4rem;
     padding-top: 0;
 }
 
 /*piercinger slut*/
+
+
+
 
 /*om os start*/
 #omos .wrap {
@@ -359,13 +481,24 @@ footer li {
 
 /*om os slut*/
 
+
+
+
 /*Kontakt/Booking start*/
 
 
 #kontaktbooking input {
     width: 800px;
+    padding: 12px;
+}
+
+#besked input {
+    width: 800px;
+    height: 150px;
     padding: 15px;
 }
+
+
 
 /*Kontrakt/Booking slut*/
 
