@@ -134,6 +134,10 @@ font-family: 'PT Sans', sans-serif;
     padding-top: 0;
 }
 
+#hudpiercing .txt {
+    padding: 2rem;
+    padding-top: 0;
+}
 
 table {
     width: 100%;
@@ -541,8 +545,10 @@ footer ul {
 }
 
 #omos .txt {
-    margin: 2rem;
+    margin: 2.5rem;
     padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 1rem;
 }
 
 /*om os slut*/

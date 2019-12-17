@@ -24,14 +24,30 @@
 
 <body>
     <header>
+
         <nav>
-            <a href="index.html">Forside</a>
-            <a href="piercinger.html">Piercinger</a>
-            <a href="praktiskinfo.html">Praktisk info</a>
-            <a href="omos.html">Om os</a>
-            <a href="priser.html">Priser</a>
-            <a href="kontaktbooking.html">Kontakt/booking</a>
+
+            <div id="topnav" class="hidden">
+                <a href="index.html">Forside</a>
+                <a href="piercinger.html">Piercinger</a>
+                <a href="praktiskinfo.html" id="menupraktiskinfo">Praktisk info</a>
+                <a href="omos.html">Om os</a>
+                <a href="priser.html">Priser</a>
+                <a href="kontaktbooking.html" id="menukontaktbooking">Kontakt/booking</a>
+            </div>
+
+            <div id="menuknap">☰</div>
+            <div id="burger" class="hidden">
+                <li> <a href="index.html">Forside</a></li>
+                <li> <a href="piercinger.html">Piercinger</a></li>
+                <li> <a href="praktiskinfo.html" id="menupraktiskinfo">Praktisk info</a></li>
+                <li> <a href="omos.html">Om os</a></li>
+                <li> <a href="priser.html">Priser</a></li>
+                <li><a href="kontaktbooking.html" id="menukontaktbooking">Kontakt/booking</a></li>
+            </div>
+
         </nav>
+
     </header>
 
     <a href="index.html">
@@ -44,45 +60,46 @@
     <div class="hudpiercing">Hudpiercing</div>
     <section id="hudpiercing">
         <h1>Hudpiercing</h1>
-        <p><b>Navle, Brystvorte, Øreflip, Earl & Øjenbryn</b><br>
-            Det er vigtigt, at du følger efterbehandlingen nøje. Helingsprocessen er forskellig fra person til person. Vær derfor varsom med at følge eventuelle råd fra venner. Deres helingsforløb kan være helt forskelligt fra dit. Er du i tvivl om det mindste, så vær ikke bange for at henvende dig. Vi står altid parat til at give dig den bedst mulige vejledning.</p>
-        <p><b>Efter Piercingen</b><br>Mens din piercing heler kan den være en smule rød, og den vil afgive sår væske som tørrer ind på smykket. Sår væsken kan godt ligne betændelse, da den er hvidgul og tyktflydende. Det er blot en naturlig afsondring af affaldsstoffer, som aftager efterhånden som piercingen heler op.</p>
-        <p>Når piercingen er overflade-helet, vil den have en naturlig hudfarve, og ikke længere afgive sår væske. Den vil forekomme at være færdig hele, men den er stadig sart, og mangler at gennem hele.<br>
-            Man kan sige, at den har brug for, at 'hærde' og blive stærk.
-            Når piercingen er gennem helet, kan den tåle let til kraftigt træk.
-        </p>
-        <p>Det bedste du kan gøre for din piercing, er at give den fred og ro. Undgå at pille, trække eller på anden måde at irritere piercingen.<br>
-            Vær varsom med tøj, der trykker på, eller på anden måde generer piercingen i længere tid af gangen. Du kan risikere, at din piercing heler 'skævt'.</p>
-        <p>Du skal rense din piercing 2 gange dagligt. Yderligere rensning vil blot irritere piercingen.<br>
-            Smykket skal ikke tages ud under rensningen, og du må ikke dreje smykket, uden at have rengjort det først. Der er 2 måder, du skal rense din piercing på.<br>
-            Fælles for metoderne er, at du altid skal starte med at vaske dine hænder grundigt.</p>
-        <p><b>Fugtighed</b><br>Det er vigtigt, at du sørger for at holde din piercing tør, mens den heler.<br>
-            Husk at tørre grundigt, når du har været i bad, og når du har svedt.<br>
-            Sport er ingen hindring.</p>
-        <p><b>Rensning 1. (aften)</b><br>
-            Hæld kogende vand i et almindeligt drikkeglas.<br>
-            Tilsæt ½ teskefuld almindeligt salt.<br>
-            Lad saltvandet køle af, til det er lunkent.<br>
-            Bad piercingen, ved at holde glassets åbning tæt op mod huden.<br>
-            Lad piercingen 'ligge i blød' i saltvandet i cirka 3-5 minutter, indtil al indtørret sårvæske er opløst.<br>
-            Dyp en tot vat i saltvandet, og rengør smykket.<br>
-            Kør forsigtigt smykket et par gange gennem piercingen.</p>
-        <p><b>Rensning 2. (morgen)</b><br>
-            Tag et varmt brusebad, og vask krop og hår først.<br>
-            Rengør forsigtigt smykket med fingrene.<br>
-            Påfør sæbe, og bevæg langsomt smykket gennem piercingen.<br>
-            Lad det sidde ca. ½ minut.<br>
-            Skyl området, mens du langsomt bevæger smykket frem og tilbage gennem piercingen.</p>
-        <p><b>Sæbe</b><br>
-            Vi anbefaler PROVON eller SATIN (velegnet vitaminberiget sæbe, som kan købes hos Gorlubb).<br>
-            LACTACYD eller VIVAG er også egnet.<br>
-            Brug aldrig brintoverilte, da brintoverilte dræber de nydannede hudceller, og irriterer din piercing.</p>
-        <p><b>Et par gode råd</b><br>
-            Vælg din påklædning, med hensyntagen til din nye piercing.<br>
-            Undgå sol dyrkning og solarium i 1 uge efter piercingen.<br>
-            Beskyt din piercing mod klor og havvand i 2 uger efter piercingen.<br>
-            Overflade-heling tager 6 til 16 uger.</p>
-
+        <div class="txt">
+            <p><b>Navle, Brystvorte, Øreflip, Earl & Øjenbryn</b><br>
+                Det er vigtigt, at du følger efterbehandlingen nøje. Helingsprocessen er forskellig fra person til person. Vær derfor varsom med at følge eventuelle råd fra venner. Deres helingsforløb kan være helt forskelligt fra dit. Er du i tvivl om det mindste, så vær ikke bange for at henvende dig. Vi står altid parat til at give dig den bedst mulige vejledning.</p>
+            <p><b>Efter Piercingen</b><br>Mens din piercing heler kan den være en smule rød, og den vil afgive sår væske som tørrer ind på smykket. Sår væsken kan godt ligne betændelse, da den er hvidgul og tyktflydende. Det er blot en naturlig afsondring af affaldsstoffer, som aftager efterhånden som piercingen heler op.</p>
+            <p>Når piercingen er overflade-helet, vil den have en naturlig hudfarve, og ikke længere afgive sår væske. Den vil forekomme at være færdig hele, men den er stadig sart, og mangler at gennem hele.<br>
+                Man kan sige, at den har brug for, at 'hærde' og blive stærk.
+                Når piercingen er gennem helet, kan den tåle let til kraftigt træk.
+            </p>
+            <p>Det bedste du kan gøre for din piercing, er at give den fred og ro. Undgå at pille, trække eller på anden måde at irritere piercingen.<br>
+                Vær varsom med tøj, der trykker på, eller på anden måde generer piercingen i længere tid af gangen. Du kan risikere, at din piercing heler 'skævt'.</p>
+            <p>Du skal rense din piercing 2 gange dagligt. Yderligere rensning vil blot irritere piercingen.<br>
+                Smykket skal ikke tages ud under rensningen, og du må ikke dreje smykket, uden at have rengjort det først. Der er 2 måder, du skal rense din piercing på.<br>
+                Fælles for metoderne er, at du altid skal starte med at vaske dine hænder grundigt.</p>
+            <p><b>Fugtighed</b><br>Det er vigtigt, at du sørger for at holde din piercing tør, mens den heler.<br>
+                Husk at tørre grundigt, når du har været i bad, og når du har svedt.<br>
+                Sport er ingen hindring.</p>
+            <p><b>Rensning 1. (aften)</b><br>
+                Hæld kogende vand i et almindeligt drikkeglas.<br>
+                Tilsæt ½ teskefuld almindeligt salt.<br>
+                Lad saltvandet køle af, til det er lunkent.<br>
+                Bad piercingen, ved at holde glassets åbning tæt op mod huden.<br>
+                Lad piercingen 'ligge i blød' i saltvandet i cirka 3-5 minutter, indtil al indtørret sårvæske er opløst.<br>
+                Dyp en tot vat i saltvandet, og rengør smykket.<br>
+                Kør forsigtigt smykket et par gange gennem piercingen.</p>
+            <p><b>Rensning 2. (morgen)</b><br>
+                Tag et varmt brusebad, og vask krop og hår først.<br>
+                Rengør forsigtigt smykket med fingrene.<br>
+                Påfør sæbe, og bevæg langsomt smykket gennem piercingen.<br>
+                Lad det sidde ca. ½ minut.<br>
+                Skyl området, mens du langsomt bevæger smykket frem og tilbage gennem piercingen.</p>
+            <p><b>Sæbe</b><br>
+                Vi anbefaler PROVON eller SATIN (velegnet vitaminberiget sæbe, som kan købes hos Gorlubb).<br>
+                LACTACYD eller VIVAG er også egnet.<br>
+                Brug aldrig brintoverilte, da brintoverilte dræber de nydannede hudceller, og irriterer din piercing.</p>
+            <p><b>Et par gode råd</b><br>
+                Vælg din påklædning, med hensyntagen til din nye piercing.<br>
+                Undgå sol dyrkning og solarium i 1 uge efter piercingen.<br>
+                Beskyt din piercing mod klor og havvand i 2 uger efter piercingen.<br>
+                Overflade-heling tager 6 til 16 uger.</p>
+        </div>
 
 
     </section>
