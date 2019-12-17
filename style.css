@@ -16,9 +16,9 @@ img {
 
 
 section {
-    padding: 1rem;
+    padding: 2rem;
     max-width: 1200px;
-    margin: 5vw auto 0;
+    margin: 6vw auto 0;
 }
 
 video {
@@ -258,11 +258,11 @@ table tr:nth-child(odd) {
 .logo {
     position: fixed;
     background-image: url(billeder/logo.png);
-    width: 20vw;
-    height: 10vw;
+    width: 47vw;
+    height: 23vw;
     background-size: cover;
 
-    left: 40vw;
+    left: 28vw;
     top: -1vw;
     z-index: 102;
 }
@@ -632,6 +632,14 @@ footer ul {
     #splash {
         width: 100vw;
 
+    }
+}
+
+@media (min-width: 590px) {
+    .logo {
+        width: 20vw;
+        height: 10vw;
+        left: 40vw;
     }
 }
 
