@@ -337,6 +337,9 @@ header nav a:hover {
     max-width: none;
 }*/
 
+
+/*       Splash start        */
+
 #slideshow {
     width: 100%;
     background-size: cover;
@@ -347,9 +350,7 @@ header nav a:hover {
     margin: auto;
 }
 
-.hidden {
-    display: none;
-}
+
 
 .fade {
     animation-name: fade;
@@ -369,8 +370,7 @@ header nav a:hover {
 }
 
 
-
-
+/*       Splash slut        */
 
 
 
@@ -438,11 +438,14 @@ footer ul {
 }
 
 #piercinger .txt {
-    margin: 2rem;
+    margin-left: 2.4rem;
     padding-top: 0;
 }
 
 /*piercinger slut*/
+
+
+
 
 /*om os start*/
 #omos .wrap {
@@ -464,6 +467,9 @@ footer ul {
 }
 
 /*om os slut*/
+
+
+
 
 /*Kontakt/Booking start*/
 
