@@ -6,10 +6,8 @@ var slideIndex = 0;
 function sidenVises() {
     console.log("Siden Vises");
 
-
-
     showSlides();
-
+    document.querySelector("#menuknap").addEventListener("click", clickMenu);
 }
 
 function showSlides() {
@@ -32,4 +30,22 @@ function showSlides() {
 
     slides[slideIndex - 1].style.display = "block";
     setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+
+function clickMenu() {
+    console.log("clickMenu");
+
+    document.querySelector("#burger").classList.remove("hidden");
+    document.querySelector("#menuknap").addEventListener("click", clickFjern);
+}
+
+
+function clickFjern() {
+    console.log("clickFjern");
+
+    document.querySelector("#burger").classList.add("hidden");
+
+    document.querySelector("#menuknap").removeEventListener("click", clickFjern);
+    document.querySelector("#menuknap").addEventListener("click", clickMenu);
 }
