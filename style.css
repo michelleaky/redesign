@@ -351,24 +351,34 @@ header nav a:hover {
     max-height: none;
     padding: 0;
     margin: auto;
+    background-color: black;
 }
 
 
 
 .fade {
     animation-name: fade;
-    animation-duration: 3s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
 
 
 
 @keyframes fade {
     0% {
-        opacity: .4
+        opacity: 0
+    }
+
+    10% {
+        opacity: 1
+    }
+
+    90% {
+        opacity: 1
     }
 
     100% {
-        opacity: 1
+        opacity: 0
     }
 }
 
