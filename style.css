@@ -545,6 +545,24 @@ footer ul {
 
 
 
+/*piercinger.html start*/
+
+#piercinger h2 {
+    color: black;
+    margin: 0;
+    padding: 1vw;
+}
+
+#piercinger p {
+    color: #e589c5;
+    font-style: italic;
+    text-align: center;
+}
+
+#piercinger .col {
+    margin: 0;
+    padding: 0, 5vw;
+}
 
 
 
