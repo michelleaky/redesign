@@ -237,9 +237,13 @@ table tr:nth-child(odd) {
 }
 
 
+header ul {
+    padding: 0;
+}
 
-
-
+.videotxt {
+    margin: 0;
+}
 
 
 
