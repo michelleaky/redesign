@@ -105,6 +105,7 @@ font-family: 'PT Sans', sans-serif;
     font-size: 0.75rem;
     border-radius: 45px;
     margin: 10px 0;
+    cursor: pointer;
 }
 
 #praktiskinfo .piercingknap p {
@@ -127,6 +128,11 @@ font-family: 'PT Sans', sans-serif;
     font-size: 0.75rem;
     border-radius: 45px;
     margin: 10px 0;
+    cursor: pointer;
+}
+
+#praktiskinfo #knapper div:hover {
+    background-color: #d06fbd;
 }
 
 #praktiskinfo .txt {
@@ -170,11 +176,50 @@ table tr:nth-child(odd) {
     background-color: rgba(255, 241, 252, 0.82);
 }
 
+#kontaktbooking .wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontaktbooking .bestilling {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bestilling iframe {
+    margin: 0 10px;
+}
+
+#kontaktbooking #besked {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#kontaktbooking #besked div {
+    width: 140px;
+    height: 55px;
+    background-color: #FF79E5;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 45px;
+    margin: 3.5vw 2vw;
+    cursor: pointer;
+}
+
+#kontaktbooking #besked div p {
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    margin: 0;
+}
 
 
-
-
-
+#kontaktbooking #besked div:hover {
+    background-color: #d06fbd;
+}
 
 
 
@@ -560,12 +605,12 @@ footer ul {
 
 
 #kontaktbooking input {
-    width: 800px;
+    width: 350px;
     padding: 12px;
 }
 
 #besked input {
-    width: 800px;
+    width: 350px;
     height: 150px;
     padding: 15px;
 }
@@ -612,6 +657,7 @@ footer ul {
     color: white;
     left: 0;
     width: 10px;
+    cursor: pointer;
 }
 
 #burger #menupraktiskinfo {
@@ -648,6 +694,31 @@ footer ul {
         left: 40vw;
     }
 }
+
+@media only screen and (min-width: 700px) {
+    #kontaktbooking .bestilling iframe {
+        width: 1000px;
+        height: 600px;
+    }
+
+    #kontaktbooking .kort iframe {
+        width: 1000px;
+        height: 450px;
+    }
+
+    #kontaktbooking input {
+        width: 800px;
+        padding: 12px;
+    }
+
+    #besked input {
+        width: 800px;
+        height: 150px;
+        padding: 15px;
+    }
+
+}
+
 
 
 /*MICHELLE SLUT*/
