@@ -221,8 +221,20 @@ table tr:nth-child(odd) {
     background-color: #d06fbd;
 }
 
+.velkommen {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
 
+.velkommen h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3.5px;
+}
 
+.velkommen p {
+    font-size: 1.2rem;
+}
 
 
 
@@ -372,15 +384,15 @@ nav {
 
 /******Menu textdesign start*******/
 header nav a:link {
-    color: #fffbeb
+    color: #fffbeb;
 }
 
 header nav a:visited {
-    color: #fffbeb
+    color: #fffbeb;
 }
 
 header nav a:hover {
-    color: #fffbeb
+    color: #c1bca5;
 }
 
 /******Menu textdesign slut*******/
